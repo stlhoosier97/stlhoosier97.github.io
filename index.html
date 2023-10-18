@@ -2,12 +2,30 @@
   <head>
     <meta charset="UTF-8" />
   </head>
-  <body style="background-color:black;">
-  </body>
   <script type="module">
-    import init from './out/pushfight.js'
-    init()
+    import init  from './out/pushfight.js'
+    window.init = init;
   </script>
+    <script type="module">
+      import initSnow  from './out/christmasSnowGlobe.js'
+      window.initSnow = initSnow;
+    </script>
+  <body style="background-color:white;">
+    <button onclick="init()">Pushfight</button>
+    <button onclick="initSnow()">Christmas Snowglobe</button>
+  </body>
+</br></br>
+  <table border =1>
+    <tr><td colspan =3 align="center">High Scores</td></tr>
+    <tr><td align="center">Place</td><td>Name</td><td>HighScore</td></tr>
+    <tr><td align="center">1</td><td>Pat</td><td>1000</td></tr>
+    <tr><td align="center">2</td><td>Rob</td><td>0</td></tr>
+  </table>
+
+
+  </body>
+   
+  
 </html>
 
 
