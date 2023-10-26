@@ -1,2 +1,2 @@
 # stlhoosier97.github.io
-website for pushfight
+website for split games

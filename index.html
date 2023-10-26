@@ -4,28 +4,55 @@
   </head>
   <script type="module">
     
-    import init  from './out/pushfight.js'
+    import init  from './out/pushfight/pushfight.js'
     window.init = init;
   </script>
     <script type="module">
-      import initSnow  from './out/christmasSnowGlobe.js'
+      import initSnow  from './out/snowglobe/snowglobe.js'
       window.initSnow = initSnow;
     </script>
-  <body style="background-color:white;">
+  <body style="background-color:darkgreen;">
     <div id="myDIV">
     <button onclick="document.getElementById('myDIV').style.display = 'none';init()">Pushfight</button>
-    <button onclick="initSnow()">Christmas Snowglobe</button>
+    <button onclick="initSnow()">Christmas Snowglobe 3</button>
   
   </br></br>
-  <table border =1>
-    <tr><td colspan =3 align="center">High Scores</td></tr>
-    <tr><td align="center">Place</td><td>Name</td><td>HighScore</td></tr>
-    <tr><td align="center">1</td><td>Pat</td><td>1000</td></tr>
-    <tr><td align="center">2</td><td>Rob</td><td>0</td></tr>
+  
+  <style>
+table, th, td {
+  border: 2px solid white;
+  border-collapse: collapse;
+}
+
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+  
+  <table class="center">
+    <tr><td colspan =3 align="center" style="color:white">Christmas Snowglobe 3</td></tr>
+    <tr><td align="center" style="color:white">Place</td><td style="color:white">Name</td><td align="center" style="color:white">High Score</td></tr>
+    <tr><td align="center" style="color:white">1</td><td align="center" style="color:white">arh</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">2</td><td align="center" style="color:white">mch</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">3</td><td align="center" style="color:white">mdh</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">4</td><td align="center" style="color:white">pjh1</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">5</td><td align="center" style="color:white">jh</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">6</td><td align="center" style="color:white">boo</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">7</td><td align="center" style="color:white">tjh</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">8</td><td align="center" style="color:white">pjh2</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">9</td><td align="center" style="color:white">ja</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">10</td><td align="center" style="color:white">clur</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">11</td><td align="center" style="color:white">dmh</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">12</td><td align="center" style="color:white">mh</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">13</td><td align="center" style="color:white">et</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">14</td><td align="center" style="color:white">dt</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">15</td><td align="center" style="color:white">scp</td><td align="center" style="color:white">0</td></tr>
+    <tr><td align="center" style="color:white">16</td><td align="center" style="color:white">jp</td><td align="center" style="color:white">0</td></tr>
   </table>
 </div>
 
-  </body>
+</body>
    
   
 </html>
