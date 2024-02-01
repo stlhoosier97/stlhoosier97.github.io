@@ -3,7 +3,6 @@
     <meta charset="UTF-8" />
   </head>
   <script type="module">
-    
     import init  from './out/pushfight.js'
     window.init = init;
   </script>
@@ -11,13 +10,20 @@
       import initSnow  from './out/snowglobe.js'
       window.initSnow = initSnow;
     </script>
+  <script type="module">
+    import init  from './out/soundboard.js'
+    window.initSoundboard = initSoundboard;
+  </script>
+
   <body style="background-color:black;">
     <div id="myDIV">
     <button onclick="document.getElementById('myDIV').style.display = 'none';init()">Pushfight</button>
     <button onclick="document.getElementById('myDIV').style.display = 'none';initSnow()">Christmas Snowglobe 3</button>
+    <button onclick="document.getElementById('myDIV').style.display = 'none';initSoundboard()">Soundboard</button>
   
   </br></br>
   
+  <!-- 
   <style>
 table, th, td {
   border: 2px solid white;
@@ -55,11 +61,9 @@ table.center {
     <tr><td align="center" style="color:white">20</td><td align="center" style="color:white">ppat</td><td align="center" style="color:white">0</td></tr>
 
   </table>
+-->
 </div>
-
 </body>
-   
-  
 </html>
 
 
